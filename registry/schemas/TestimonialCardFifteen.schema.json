@@ -1,0 +1,19 @@
+{
+  "name": "TestimonialCardFifteen",
+  "propsSchema": {
+    "testimonial": "string",
+    "rating": "number (0-5)",
+    "author": "string",
+    "avatars": "Array<{ src: string, alt: string }>",
+    "useInvertedBackground": "'noInvert' | 'invertDefault'",
+    "ariaLabel?": "string (default: 'Testimonial section')",
+    "className?": "string",
+    "containerClassName?": "string",
+    "ratingClassName?": "string",
+    "starClassName?": "string",
+    "testimonialClassName?": "string",
+    "avatarGroupClassName?": "string",
+    "avatarClassName?": "string",
+    "avatarImageClassName?": "string"
+  }
+}

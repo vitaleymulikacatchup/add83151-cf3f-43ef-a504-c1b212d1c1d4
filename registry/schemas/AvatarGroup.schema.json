@@ -1,0 +1,12 @@
+{
+  "name": "AvatarGroup",
+  "propsSchema": {
+    "avatars": "Array<{ src: string, alt: string }> - User avatar images",
+    "text?": "string",
+    "maxVisible?": "number (default: 5)",
+    "className?": "string",
+    "avatarClassName?": "string",
+    "textClassName?": "string",
+    "ariaLabel?": "string (default: 'User avatars')"
+  }
+}

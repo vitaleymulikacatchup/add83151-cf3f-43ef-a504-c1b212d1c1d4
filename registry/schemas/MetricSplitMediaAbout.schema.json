@@ -1,0 +1,31 @@
+{
+  "name": "MetricSplitMediaAbout",
+  "propsSchema": {
+    "title": "string",
+    "description": "string",
+    "metrics": "Array<{ value: string, title: string }>",
+    "useInvertedBackground": "'noInvert' | 'invertDefault'",
+    "tag?": "string",
+    "tagIcon?": "LucideIcon",
+    "imageSrc?": "string",
+    "videoSrc?": "string",
+    "imageAlt?": "string",
+    "videoAriaLabel?": "string (default: 'About section video')",
+    "ariaLabel?": "string (default: 'About section')",
+    "className?": "string",
+    "containerClassName?": "string",
+    "gridClassName?": "string",
+    "leftColumnClassName?": "string",
+    "rightColumnClassName?": "string",
+    "textBoxClassName?": "string",
+    "titleClassName?": "string",
+    "descriptionClassName?": "string",
+    "tagClassName?": "string",
+    "metricsContainerClassName?": "string",
+    "metricCardClassName?": "string",
+    "metricValueClassName?": "string",
+    "metricTitleClassName?": "string",
+    "mediaWrapperClassName?": "string",
+    "imageClassName?": "string"
+  }
+}

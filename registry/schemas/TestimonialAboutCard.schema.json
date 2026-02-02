@@ -1,0 +1,30 @@
+{
+  "name": "TestimonialAboutCard",
+  "propsSchema": {
+    "tag": "string (required)",
+    "tagIcon?": "LucideIcon",
+    "title": "string (required)",
+    "description": "string (required)",
+    "subdescription": "string (required)",
+    "icon": "LucideIcon (required - displayed in the icon box)",
+    "imageSrc": "string (required if no videoSrc)",
+    "imageAlt?": "string (default: '')",
+    "videoSrc": "string (required if no imageSrc)",
+    "videoAriaLabel?": "string (default: 'Testimonial video')",
+    "useInvertedBackground": "'noInvert' | 'invertDefault'",
+    "ariaLabel?": "string (default: 'Testimonial section')",
+    "className?": "string",
+    "containerClassName?": "string",
+    "cardClassName?": "string",
+    "contentClassName?": "string",
+    "tagClassName?": "string",
+    "titleClassName?": "string",
+    "descriptionClassName?": "string",
+    "subdescriptionClassName?": "string",
+    "footerClassName?": "string",
+    "iconBoxClassName?": "string",
+    "iconClassName?": "string",
+    "mediaWrapperClassName?": "string",
+    "mediaClassName?": "string"
+  }
+}

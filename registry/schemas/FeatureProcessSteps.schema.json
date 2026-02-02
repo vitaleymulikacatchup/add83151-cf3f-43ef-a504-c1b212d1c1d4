@@ -1,0 +1,32 @@
+{
+  "name": "FeatureProcessSteps",
+  "propsSchema": {
+    "title": "string",
+    "description": "string",
+    "steps": "Array<{ number: string, title: string, description: string, tag?: string }>",
+    "useInvertedBackground": "'noInvert' | 'invertDefault'",
+    "tag?": "string",
+    "tagIcon?": "LucideIcon",
+    "buttons?": "ButtonConfig[]",
+    "ariaLabel?": "string (default: 'Process steps section')",
+    "className?": "string",
+    "containerClassName?": "string",
+    "gridClassName?": "string",
+    "leftColumnClassName?": "string",
+    "rightColumnClassName?": "string",
+    "textBoxClassName?": "string",
+    "titleClassName?": "string",
+    "descriptionClassName?": "string",
+    "tagClassName?": "string",
+    "buttonContainerClassName?": "string",
+    "buttonClassName?": "string",
+    "buttonTextClassName?": "string",
+    "stepsContainerClassName?": "string",
+    "stepClassName?": "string",
+    "stepNumberClassName?": "string",
+    "stepContentClassName?": "string",
+    "stepTitleClassName?": "string",
+    "stepTagClassName?": "string",
+    "stepDescriptionClassName?": "string"
+  }
+}

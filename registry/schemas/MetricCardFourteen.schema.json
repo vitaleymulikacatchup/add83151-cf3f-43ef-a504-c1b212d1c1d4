@@ -1,0 +1,18 @@
+{
+  "name": "MetricCardFourteen",
+  "propsSchema": {
+    "title": "string",
+    "tag": "string",
+    "metrics": "Array<{ id: string, value: string, description: string }>",
+    "useInvertedBackground": "'noInvert' | 'invertDefault'",
+    "ariaLabel?": "string (default: 'Metrics section')",
+    "className?": "string",
+    "containerClassName?": "string",
+    "titleClassName?": "string",
+    "tagClassName?": "string",
+    "metricsContainerClassName?": "string",
+    "metricClassName?": "string",
+    "valueClassName?": "string",
+    "descriptionClassName?": "string"
+  }
+}

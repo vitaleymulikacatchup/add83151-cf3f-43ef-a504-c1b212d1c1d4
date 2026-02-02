@@ -1,0 +1,32 @@
+{
+  "name": "TextBox",
+  "propsSchema": {
+    "title": "string",
+    "description": "string",
+    "type?": "'entrance-slide' | 'reveal-blur' | 'background-highlight'",
+    "textboxLayout?": "'default' | 'split' | 'split-actions' | 'split-description' | 'inline-image' (default: 'default')",
+    "center?": "boolean (default: false)",
+    "tag?": "string",
+    "tagIcon?": "LucideIcon",
+    "titleSegments?": "Array<{ type: 'text', content: string } | { type: 'image', src: string, alt?: string }>",
+    "useInvertedBackground?": "'noInvert' | 'invertDefault'",
+    "titleImageWrapperClassName?": "string",
+    "titleImageClassName?": "string",
+    "buttons?": "Array<{text: string, onClick?: () => void, href?: string}>",
+    "duration?": "number (default: 1)",
+    "start?": "string (default: 'top 80%')",
+    "end?": "string (default: 'top 20%')",
+    "gradientColors?": "{ from: string, to: string }",
+    "children?": "React.ReactNode",
+    "className?": "string",
+    "titleClassName?": "string",
+    "descriptionClassName?": "string",
+    "tagClassName?": "string",
+    "buttonContainerClassName?": "string",
+    "buttonClassName?": "string",
+    "buttonTextClassName?": "string",
+    "avatars?": "Array<{ src: string, alt?: string }> - User avatar images",
+    "avatarText?": "string",
+    "avatarGroupClassName?": "string"
+  }
+}

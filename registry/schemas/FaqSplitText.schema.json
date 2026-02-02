@@ -1,0 +1,30 @@
+{
+  "name": "FaqSplitText",
+  "propsSchema": {
+    "faqs": "Array<{ id: string, title: string, content: string }> - FAQ items",
+    "sideTitle": "string",
+    "sideDescription?": "string",
+    "buttons?": "Array<{text: string, onClick?: () => void, href?: string}>",
+    "textPosition?": "'left' | 'right' (default: 'left')",
+    "useInvertedBackground": "'noInvert' | 'invertDefault'",
+    "animationType?": "'smooth' | 'instant' (default: 'smooth')",
+    "showCard?": "boolean (default: true)",
+    "ariaLabel?": "string (default: 'FAQ section')",
+    "className?": "string",
+    "containerClassName?": "string",
+    "contentClassName?": "string",
+    "textContainerClassName?": "string",
+    "sideTitleClassName?": "string",
+    "sideDescriptionClassName?": "string",
+    "buttonContainerClassName?": "string",
+    "buttonClassName?": "string",
+    "buttonTextClassName?": "string",
+    "faqsContainerClassName?": "string",
+    "accordionClassName?": "string",
+    "accordionTitleClassName?": "string",
+    "accordionIconContainerClassName?": "string",
+    "accordionIconClassName?": "string",
+    "accordionContentClassName?": "string",
+    "separatorClassName?": "string"
+  }
+}

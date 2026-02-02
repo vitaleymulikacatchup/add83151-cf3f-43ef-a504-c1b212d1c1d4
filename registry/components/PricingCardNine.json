@@ -1,0 +1,99 @@
+{
+  "name": "PricingCardNine",
+  "description": "Pricing cards with image, price tag, title, feature checklist, and CTA button.",
+  "constraints": {
+    "textRules": {
+      "title": {
+        "required": true,
+        "example": "Coaching Plans",
+        "minChars": 2,
+        "maxChars": 50
+      },
+      "description": {
+        "required": true,
+        "example": "Choose the plan that fits your goals",
+        "minChars": 5,
+        "maxChars": 300
+      },
+      "tag": {
+        "required": false,
+        "example": "Pricing",
+        "minChars": 2,
+        "maxChars": 30
+      }
+    },
+    "planRules": {
+      "id": {
+        "required": true,
+        "example": "basic",
+        "minChars": 1,
+        "maxChars": 30
+      },
+      "title": {
+        "required": true,
+        "example": "Basic",
+        "minChars": 2,
+        "maxChars": 40
+      },
+      "price": {
+        "required": true,
+        "example": "$59",
+        "minChars": 1,
+        "maxChars": 20
+      },
+      "period": {
+        "required": true,
+        "example": "/month",
+        "minChars": 1,
+        "maxChars": 10
+      },
+      "imageSrc": {
+        "required": true,
+        "example": "/images/coaching-basic.jpg",
+        "note": "Image for the plan card"
+      },
+      "button": {
+        "required": true,
+        "note": "ButtonConfig with text and href or onClick"
+      },
+      "features": {
+        "required": true,
+        "example": [
+          "Free initial consultation",
+          "Weekly checking"
+        ],
+        "note": "Array of feature strings displayed as checklist"
+      }
+    }
+  },
+  "propsSchema": {
+    "plans": "Array<{ id: string, title: string, price: string, period: string, features: string[], button: {text: string, onClick?: () => void, href?: string}, imageSrc: string, imageAlt?: string }>",
+    "animationType": "'none' | 'opacity' | 'slide-up' | 'scale-rotate' | 'blur-reveal' (required)",
+    "title": "string",
+    "titleSegments?": "Array<{ type: 'text', content: string } | { type: 'image', src: string, alt?: string }> - For inline images in title",
+    "description": "string",
+    "textboxLayout": "'default' | 'split' | 'split-actions' | 'split-description' | 'inline-image' (required)",
+    "useInvertedBackground": "'noInvert' | 'invertDefault'",
+    "tag?": "string",
+    "tagIcon?": "LucideIcon",
+    "buttons?": "Array<{text: string, onClick?: () => void, href?: string}>",
+    "ariaLabel?": "string (default: 'Pricing section')",
+    "className?": "string"
+  },
+  "usageExample": "<PricingCardNine plans={[{ id: 'basic', title: 'Basic', price: '$59', period: '/month', imageSrc: '/images/plan-basic.jpg', button: { text: 'Get in touch', href: '#contact' }, features: ['Free initial consultation', '1x per 2 weeks training plan update', 'Weekly checking'] }]} animationType=\"slide-up\" title=\"Coaching Plans\" description=\"Choose the plan that fits your goals\" textboxLayout=\"default\" useInvertedBackground=\"noInvert\" />",
+  "do": [
+    "Use for feature showcases",
+    "Use for capability displays",
+    "Use for pricing pages",
+    "Use for subscription tiers",
+    "Requires plans[]",
+    "Requires titleSegments?[]",
+    "Requires buttons?[]"
+  ],
+  "dont": [],
+  "editRules": {
+    "textOnly": true,
+    "layoutLocked": true,
+    "styleLocked": true
+  }
+}

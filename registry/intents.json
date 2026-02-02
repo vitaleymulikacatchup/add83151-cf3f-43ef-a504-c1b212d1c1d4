@@ -1,0 +1,170 @@
+{
+  "media carousel": [
+    "CardStack"
+  ],
+  "horizontal timeline": [
+    "TimelineHorizontalCardStack",
+    "FeatureCardEight"
+  ],
+  "vertical sticky scroll timeline": [
+    "TimelineCardStack",
+    "FeatureCardNine"
+  ],
+  "sequential process": [
+    "TimelinePhoneView",
+    "TimelineProcessFlow",
+    "FeatureCardSix",
+    "FeatureCardNineteen",
+    "FeatureProcessSteps"
+  ],
+  "button": [
+    "TextBox",
+    "ButtonTextUnderline",
+    "ButtonShiftHover",
+    "ButtonHoverMagnetic",
+    "ButtonDirectionalHover",
+    "ButtonElasticEffect",
+    "ButtonTextStagger",
+    "ButtonExpandHover",
+    "ButtonBounceEffect"
+  ],
+  "testimonials": [
+    "AvatarGroup",
+    "ProductCardTwo",
+    "TestimonialCardOne",
+    "TestimonialCardTwo",
+    "TestimonialCardFive",
+    "TestimonialCardSix",
+    "TestimonialCardThirteen"
+  ],
+  "feature showcase": [
+    "BentoGlobe",
+    "Input",
+    "Textarea",
+    "EmailSignupForm",
+    "NavbarStyleFullscreen",
+    "NavbarStyleCentered",
+    "GridBackround",
+    "DotGridBackground",
+    "CircleGradientBackground",
+    "FloatingGradientBackground",
+    "AnimatedGridBackground",
+    "AnimatedAuroraBackground",
+    "FluidBackground",
+    "GradientBarsBackground",
+    "BlurBottomBackground",
+    "SplitAbout",
+    "TextSplitAbout",
+    "TextAbout",
+    "MediaSplitTabsAbout",
+    "TestimonialAboutCard",
+    "AboutMetric",
+    "FeatureCardOne",
+    "FeatureCardThree",
+    "FeatureCardTwelve",
+    "FeatureCardSixteen",
+    "FeatureCardTwentyOne",
+    "FeatureCardMedia",
+    "PricingCardOne",
+    "PricingCardTwo",
+    "PricingCardThree",
+    "PricingCardFive",
+    "PricingCardEight",
+    "PricingCardNine",
+    "MetricCardThree",
+    "MetricCardSeven",
+    "TestimonialCardTen",
+    "TestimonialCardTwelve",
+    "ContactCenter",
+    "ContactSplit",
+    "ContactSplitForm",
+    "FooterBase",
+    "FooterMedia",
+    "FooterLogoEmphasis",
+    "FooterSimple",
+    "NavbarLayoutFloatingInline",
+    "NavbarLayoutFloatingOverlay"
+  ],
+  "text component": [
+    "TextAnimation"
+  ],
+  "metrics display": [
+    "TextNumberCount",
+    "MetricCardOne",
+    "MetricCardTwo",
+    "MetricCardEleven",
+    "MetricCardFourteen"
+  ],
+  "contact form": [
+    "ButtonIconArrow",
+    "ButtonHoverBubble",
+    "ButtonTextShift",
+    "ProductCardOne",
+    "TeamCardEleven",
+    "FaqBase",
+    "FaqDouble",
+    "ContactText",
+    "ContactFaq"
+  ],
+  "background": [
+    "PlainBackground"
+  ],
+  "hero with media": [
+    "ContactForm",
+    "AuroraBackground",
+    "RadialGradientBackground",
+    "RotatedRaysBackground",
+    "DownwardRaysBackground",
+    "HeroBillboard",
+    "HeroBillboardCarousel",
+    "HeroBillboardGallery",
+    "HeroSplit",
+    "HeroSplitKpi",
+    "HeroOverlay",
+    "HeroLogo",
+    "HeroLogoBillboard",
+    "HeroLogoBillboardSplit",
+    "HeroBillboardScroll",
+    "HeroBillboardRotatedCarousel",
+    "HeroCarouselLogo",
+    "MediaAbout",
+    "TestimonialCardFifteen",
+    "BlogCardThree"
+  ],
+  "product showcase": [
+    "NavbarStyleApple",
+    "ProductCardThree",
+    "ProductCardFour"
+  ],
+  "about section": [
+    "InlineImageSplitTextAbout",
+    "MetricSplitMediaAbout",
+    "TeamCardTwo",
+    "TeamCardSix"
+  ],
+  "sequential vertical steps with alternating layout": [
+    "FeatureCardSeven"
+  ],
+  "pricing plans": [
+    "MetricCardTen"
+  ],
+  "team section": [
+    "TeamCardOne",
+    "TeamCardFive",
+    "TeamCardTen"
+  ],
+  "faq section": [
+    "FaqSplitMedia",
+    "FaqSplitText"
+  ],
+  "content listing": [
+    "BlogCardOne",
+    "BlogCardTwo"
+  ],
+  "footer": [
+    "FooterBaseReveal",
+    "FooterCard",
+    "FooterBaseCard",
+    "FooterLogoReveal"
+  ]
+}
